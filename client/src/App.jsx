@@ -13,7 +13,7 @@ import ProductListDash from "./Pages/productList/ProductList";
 import User from './Pages/user/User'
 import NewUser from './Pages/newUser/NewUser'
 import ProductEdit from "./Pages/Editproduct/Product";
-import NewProduct from "./Pages/newProduct/NewProduct";
+// import NewProduct from "./Pages/newProduct/NewProduct";
 import Protected from "./components/Protected";
 
 function App() {
@@ -35,7 +35,7 @@ function App() {
           <Route path="/user/:userId" element={<Protected Components={User} />} />
           <Route path="/newUser" element={<Protected Components={NewUser} />} />
           <Route path="/productlist/:productId" element={<Protected Components={ProductEdit} />} />
-          <Route path="/newproduct" element={<Protected Components={NewProduct} />} />
+          {/* <Route path="/newproduct" element={<Protected Components={NewProduct} />} /> */}
           <Route path="*" element={<Login />} />
         </Routes>
       </BrowserRouter>
