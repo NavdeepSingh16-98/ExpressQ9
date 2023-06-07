@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { useState } from "react";
+import pic from '../image/manyPhones.jpg'
 
 
 const Container = styled.div`
@@ -13,7 +14,7 @@ const Container = styled.div`
       rgba(255, 255, 255, 0.5),
       rgba(255, 255, 255, 0.5)
     ),
-    url("https://img.freepik.com/free-photo/happy-long-haired-woman-smiling-after-shopping-portrait-pleased-white-girl-with-paper-bags_197531-8240.jpg?size=626&ext=jpg&ga=GA1.2.1265651161.1660969785")
+    url(${pic})
       center;
   background-size: cover;
   display: flex;
@@ -71,7 +72,7 @@ const Register = () => {
     if ((!credintial.gmail) || (!credintial.name) || (!credintial.password) || (!credintial.username)) {
       toast.error("All field are mandatory")
     }
-    const response = await fetch("https://localhost:5000/api/auth/register", {
+    const response = await fetch("http://localhost:5000/api/auth/register", {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
@@ -95,6 +96,7 @@ const Register = () => {
     <>
       <Container>
         <Wrapper>
+          {/* <img src={pic} /> */}
           <Title>CREATE AN ACCOUNT</Title>
           <Form onSubmit={handleSubmit}>
             <Input placeholder="Name" name="name" onChange={handleChange} value={credintial.name} />
