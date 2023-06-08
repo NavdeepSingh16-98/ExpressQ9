@@ -10,6 +10,10 @@
 - Express Js
 - Stripe (Payment Gateway)
 
+[Link](https://navdeep-ecommerce.netlify.app/)
+<br>
+[Backend service Link](https://expressq9-production.up.railway.app)
+
 
 
 # Screenhsots
