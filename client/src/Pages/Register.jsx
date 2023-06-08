@@ -72,7 +72,7 @@ const Register = () => {
     if ((!credintial.gmail) || (!credintial.name) || (!credintial.password) || (!credintial.username)) {
       toast.error("All field are mandatory")
     }
-    const response = await fetch("http://localhost:5000/api/auth/register", {
+    const response = await fetch("https://expressq9-production.up.railway.app/api/auth/register", {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'

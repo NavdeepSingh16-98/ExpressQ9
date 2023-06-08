@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // export const BASE_URL = "http://localhost:5000/api/"
-export const BASE_URL = "http://localhost:5000/api/"
+export const BASE_URL = "https://expressq9-production.up.railway.app/api/"
 
 // const TOKEN = JSON.parse(JSON.parse(localStorage.getItem("persist:root")).user).currentUser.accessToken
 
