@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/ExpressQ9/static/css/main.e3e88346.css",
+    "main.js": "/ExpressQ9/static/js/main.953e3f53.js",
+    "static/media/manyPhones.jpg": "/ExpressQ9/static/media/manyPhones.8094750ea5ee9028f37b.jpg",
+    "index.html": "/ExpressQ9/index.html",
+    "main.e3e88346.css.map": "/ExpressQ9/static/css/main.e3e88346.css.map",
+    "main.953e3f53.js.map": "/ExpressQ9/static/js/main.953e3f53.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e3e88346.css",
+    "static/js/main.953e3f53.js"
+  ]
+}
